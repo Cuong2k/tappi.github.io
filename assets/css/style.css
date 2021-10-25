@@ -3,12 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%; }
 
-html, body {
-  height: 100%;
-  margin: 0; }
-
 .container {
-  height: 100%;
   max-width: 510px !important; }
 
 .content {
@@ -65,7 +60,7 @@ html, body {
 
 #contact-section {
   padding: 25px 15px;
-  margin-bottom: 80px; }
+  margin-bottom: 75px; }
   #contact-section .list-menu {
     text-decoration: none;
     font-weight: bold;
