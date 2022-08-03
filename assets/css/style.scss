@@ -98,6 +98,7 @@ body {
         transition: 0.3s all ease-in-out;
         img {
             max-width: 35px;
+            max-height: 35px;
             margin-right: 15px;
             border-radius: 50%;
         }
@@ -111,9 +112,7 @@ body {
 }
 
 #footer {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-top: 1px solid #8d8d8d;
+    border-top: 1px solid #c4c4c4;
     position: fixed;
     padding: 5px 0;
     bottom: 0;

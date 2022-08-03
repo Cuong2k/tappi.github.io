@@ -80,6 +80,7 @@ body {
     transition: 0.3s all ease-in-out; }
     #contact-section .list-menu img {
       max-width: 35px;
+      max-height: 35px;
       margin-right: 15px;
       border-radius: 50%; }
     #contact-section .list-menu span {
@@ -88,9 +89,7 @@ body {
     background: #ffc400ab; }
 
 #footer {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-top: 1px solid #8d8d8d;
+  border-top: 1px solid #c4c4c4;
   position: fixed;
   padding: 5px 0;
   bottom: 0;
