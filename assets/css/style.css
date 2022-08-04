@@ -7,7 +7,7 @@ body {
   max-width: 510px !important; }
 
 .content {
-  background: #FFFF;
+  background: #ffff;
   border-radius: 15px;
   box-shadow: 0px 0px 50px 1px;
   top: 0; }
@@ -27,7 +27,7 @@ body {
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      border: 3px solid #FFFF;
+      border: 3px solid #ffff;
       background-color: #7a7a7a;
       background-image: url("../images/avatar-img.jpg");
       background-repeat: no-repeat;
@@ -41,29 +41,32 @@ body {
       font-weight: bold;
       padding-right: 5px; }
     #hero-section .name i {
-      color: #0C88EF; }
+      color: #0c88ef; }
   #hero-section .status p {
     margin-bottom: 5px; }
   #hero-section .location span {
     padding-right: 5px; }
-  #hero-section .contact :nth-child(n) {
-    margin-bottom: 15px;
-    width: 125px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 14px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    color: #FFFF;
-    padding: 5px 15px; }
-  #hero-section .contact .button-contact {
-    margin-left: 30px;
-    margin-right: 20px;
-    background: #3d81db; }
-  #hero-section .contact .button-message {
-    margin-right: 30px;
-    background: #494949; }
+  #hero-section .contact {
+    display: flex;
+    justify-content: space-between; }
+    #hero-section .contact :nth-child(n) {
+      margin-bottom: 15px;
+      width: 125px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: #ffff;
+      padding: 5px 15px; }
+    #hero-section .contact .button-contact {
+      margin-left: 30px;
+      margin-right: 20px;
+      background: #3d81db; }
+    #hero-section .contact .button-message {
+      margin-right: 30px;
+      background: #494949; }
 
 #contact-section {
   padding: 25px 15px;
@@ -95,11 +98,41 @@ body {
   bottom: 0;
   width: 100%;
   margin: auto;
-  background: #ebf1ff;
-  text-align: center; }
+  background: #ebebeb;
+  text-align: center;
+  line-height: 100%; }
   #footer p {
     display: inline; }
   #footer a {
+    color: #1890ff;
     text-decoration: none; }
+
+@media screen and (max-width: 300px) {
+  .content #hero-section .name {
+    padding: auto; }
+    .content #hero-section .name h1 {
+      font-size: 20px; }
+  .content #hero-section .status p {
+    font-size: 14px; }
+  .content #hero-section .location:nth-child(n) {
+    font-size: 14px; }
+  .content .contact {
+    display: block !important;
+    padding: 0 15px; }
+    .content .contact a {
+      display: block;
+      margin: 5px 0 !important;
+      width: 100% !important;
+      font-size: 12px !important; }
+  .content #contact-section {
+    margin-bottom: 40px;
+    padding: 15px; }
+    .content #contact-section a {
+      height: 40px;
+      font-size: 12px;
+      padding: 5px 15px; }
+
+  #footer :nth-child(n) {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
