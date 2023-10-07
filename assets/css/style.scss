@@ -100,6 +100,7 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
+    background-color: #bebebe2c;
     + .list-menu {
       margin-top: 15px;
     }
@@ -107,14 +108,15 @@ body {
       max-width: 34px;
       max-height: 34px;
       left: 25px;
-      border-radius: 50%;
+      border-radius: 8px;
       position: absolute;
       top: calc(50% - 17px);
     }
   }
   .list-menu:hover {
-    background: #ffc400ab;
+    background: #bebebe;
     box-shadow: 0 3px 10px #8d8d8d;
+    color: white;
   }
 }
 
